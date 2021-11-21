@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#navbar {
+    background-color: rgb(42 0 25);
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 13px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding: 13px 64px;
+    color: white;
+}
+
+#navbar li a:hover {
+    text-decoration: none;
+    padding: 13px 64px;
+    color: red;
+}
+
+#introSection {
+    color: white;
+    font-family: 'Yaldevi', sans-serif;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: center/cover no-repeat url("/static/bg.jpg");
+    height: 300px;
+    background-color: red;
+}
+
+#introSection div.small {
+    font-size: 41px;
+    font-family: 'Birthstone', cursive;
+}
+
+#missionSection {
+    height: 300px;
+    color: white;
+    background-color: #fc0a35;
+}
+
+#missionSection  h2 {
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.card {
+    background-color: #fd757b;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 30%;
+    height: 225px;
+    margin: 10px 21px;
+}
+
+.card h3 {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    margin: 10px;
+}
+
+#sponsorsSection {
+    height: 300px;
+    background-color: rgb(253 131 136);
+}
+
+#sponsorsSection h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#sponsors {
+    height: 216px;
+    max-width: 1000px;
+    margin: 12px auto;
+    margin-left: 188px;
+}
+
+.spImage {
+    height: 80%;
+    margin: 20px;
+}
+
+#footer {
+    height: 40px;
+    background-color: rgb(42 0 25);
+    color: white;
+}
+
+#footer h4 {
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    padding-top: 9px;
+}
